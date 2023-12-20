@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.mainDiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.listDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*height: 100vh;*/
+  margin: 0;
+}
+
+.choiceList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.choiceList li {
+  margin-right: 10px;
+}
